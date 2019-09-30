@@ -1,6 +1,10 @@
 body{
     background-color: rgb(136, 136, 136);
 }
+h2{
+    text-align: center;
+    color: red;
+}
 table{
     margin: auto;
     background-color: blueviolet;
@@ -17,8 +21,8 @@ input{
     left: 5px;
     top: 5px;
     border: 0;
-    color: azure;
-    background-color: beige;
+    color: #101b41;
+    background-color: #fff;
     border-radius: 4px;
     width: 60px;
     height: 50px;
@@ -31,7 +35,7 @@ input{
 
 input:hover{
     border: 0 solid #000;
-    color: aliceblue;
+    color: #495069;
     background-color: #fff;
     border-radius: 4px;
     width: 60px;
@@ -41,4 +45,69 @@ input:hover{
     font-size: 20px;
     box-shadow: 0 4px #b0d2cf;
 
+}
+
+input:active{
+    top: 4px;
+    border: 0 solid #000;
+    color: #1735a0;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+#display{
+    width: 270px;
+    max-width: 275px;
+    font-size: 26px;
+    text-align: right;
+    background-color: rgb(179, 230, 245);
+    float: left;
+}
+#display:hover{
+width:  275px;
+font-size: 26px;
+text-align: right;
+background-color: turquoise;
+box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.operator{
+    background-color: rgb(196, 47, 255);
+     position: relative;
+
+}
+.operator:hover{
+    background-color: rgb(220, 47, 255);
+    box-shadow: 0 4px #b0d2cf;
+}
+.operator:active{
+    top: 4px;
+    box-shadow: none;
+}
+
+#clear{
+    float: letf;
+    position: relative;
+    display: block;
+    background-color: rgb(27, 19, 9)
+}
+#clear:hover{
+    float: left;
+    display: block;
+    background-color: #F297A0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #CC7F86;
+}
+#clear:active{
+    float: left;
+    top: 4px;
+    display: block;
+    background-color: #F297A0;
+    margin-bottom: 15px;
+    box-shadow: none;
 }
